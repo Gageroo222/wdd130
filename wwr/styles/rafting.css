@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
 :root {
     --primary-color: #3F644B;
     --secondary-color: #B7B6C1;
@@ -17,6 +12,18 @@ body {
     --nav-link-color: #0000ee;
     --nav-hover-link-color: #710193;
     --nav-hover-background-color: #ffffff;
+}
+body {
+    font-family: var(--paragraph-font);
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 20px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -34,8 +41,9 @@ nav {
     font-size: 1.2rem;
     display:flex;
 }
-article {
-    position: absolute;
+.hero {
+    margin: 10px auto;
+    position: relative;
 }
 .hero img {
     position: relative;
@@ -45,4 +53,12 @@ article {
 }
 h1 {
     position: absolute;
+}
+article {
+    padding: 20px;
+    position: absolute;
+    opacity: 80%;
+}
+article img {
+    float: right;
 }
