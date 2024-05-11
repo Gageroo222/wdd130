@@ -41,10 +41,10 @@ nav {
     font-size: 1.2rem;
     display:flex;
 }
-.hero{
+.hero {
    position: relative;
 }
-.hero img{
+.hero img {
     position: absolute;
     display: block;
     width: 900px;
@@ -74,6 +74,5 @@ article {
         
 }
 section img{
-    display: block;}
-
-
+    display: block;
+}
