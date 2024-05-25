@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #3F644B;
+    --secondary-color: #ffffff; 
+    --accent1-color: #24ABF9;
+    --accent2-color: #000000;
+
+    --heading-font: 'Abril Fatface', serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #ffffff;
+    --nav-link-color: #0000ee;
+    --nav-hover-link-color: #710193;
+    --nav-hover-background-color: #ffffff;
+}
+
+header {
+    justify-content: center;
+    padding: 15px;
+    background-color: steelblue;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: 33% 34% 33%;
+}
+
+header img {
+    max-width: 150px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 7/10;
+    grid-row: 2;
+}
+
+header nav a {
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    font-family: Abril Fatface;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 100px;
+}
+
+.intro h1 {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.intro article {
+    grid-column: 2;
+    text-align: center;
+}
+
+.phone {
+    display: grid;
+    float: left;
+    width: 350px;
+    height: 300px;
+    justify-content: center;
+    background-color: steelblue;
+    border-radius: 1rem;
+    margin-top: -50px;
+    margin-left: 250px;
+}
+
+.phone h2 {
+    display: flex;
+    text-align: center;
+}
+
+.phone article {
+    display: grid;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+article a {
+    display: flex;
+    background-color: #ffffff;
+    padding-top: 4px;
+    /* padding-bottom: 6px; */
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    display: grid;
+    float: right;
+    width: 350px;
+    height: 300px;
+    justify-content: center;
+    background-color: steelblue;
+    border-radius: 1rem;
+    margin-top: -50px;
+    margin-right: 250px;
+}
+
+.email h2 {
+    display: flex;
+    text-align: center;
+}
+
+.email article {
+    display: grid;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.maps {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 250px;
+}
+
+.maps article {
+    display: grid;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.maps iframe {
+    display: flex;
+    width: 50% auto;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    float: right;
+}
+
+.employees {
+    display: grid;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+figure.img1 {
+    background-color: #3F644B;
+}
+
+figure.img1 img {
+    display: flex;
+    grid-column: 1;
+
+}
+
+figure.img1 h3 {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+    color: #ffffff;
+}
+
+figure.img1 figcaption {
+    grid-column: 2;
+    grid-row: 1;
+    color: #ffffff;
+}
+
+figure.img2 img {
+    display: flex;
+    grid-column: 2;
+
+}
+
+figure.img2 h3 {
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+figure.img2 figcaption {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+figcaption {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+}
+
+fieldset {
+    display: grid;
+    width: 400px;
+    justify-content: center;
+}
+
+button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding:5%;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 80% 20%;
+    background-color: steelblue;
+}
+
+footer p {
+    color: #000000;
+}
+
+footer nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
